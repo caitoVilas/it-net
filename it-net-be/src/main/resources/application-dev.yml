@@ -11,7 +11,7 @@ spring:
       on-profile: dev
 ## datasource:
   datasource:
-    url: jdbc:mysql://localhost:3306/clinical
+    url: jdbc:mysql://localhost:3306/it_net
     username: root
     password: 123456
   jpa:
