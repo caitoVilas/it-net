@@ -1,0 +1,20 @@
+# QA PROFILE
+server:
+  port: 30100
+  servlet:
+    context-path: /it-net/api
+spring:
+  application:
+    name: it-net-qa
+  config:
+    activate:
+      on-profile: qa
+  ## datasource:
+  datasource:
+    url: jdbc:mysql://localhost:3306/it_net
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
